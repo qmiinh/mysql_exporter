@@ -6,8 +6,8 @@ WORKDIR /app
 ENV port_expose=4444
 ENV host_db="127.0.0.1"
 ENV port_db=3306
-ENV user_db="exporter"
-ENV pass_db="Vnptit@20"
+ENV user_db=""
+ENV pass_db=""
  
 # Install app dependencies
 COPY src/requirements.txt ./
